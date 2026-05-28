@@ -70,7 +70,7 @@ description: "Low-cost virtual pre-conference workshops for ACH 2026, June 22-23
 <div class="ws-steps">
   <div class="ws-step">
     <div class="ws-step-num">1</div>
-    <div class="ws-step-body">Complete <a href="https://bit.ly/ACH26-PCW">the pre-registration form</a> by <strong>May 22</strong></div>
+    <div class="ws-step-body">Complete <a href="https://bit.ly/ACH26-PCW">the pre-registration form</a> by <strong>May 22</strong> for priority registration. <strong>We will continue accepting pre-registration submissions through this form as long as space permits.</strong></div>
   </div>
   <div class="ws-step">
     <div class="ws-step-num">2</div>
@@ -79,7 +79,7 @@ description: "Low-cost virtual pre-conference workshops for ACH 2026, June 22-23
 </div>
 
 <div class="ws-notice">
-  <strong>Space is limited!</strong> To reserve your seat, complete <a href="https://bit.ly/ACH26-PCW">our brief pre-registration interest form</a> by May 22. Workshop organizers will contact you closer to the event with additional information about how to complete your registration process. We will maintain a wait list for each workshop.
+  <strong>Space is limited!</strong> To reserve your seat, complete <a href="https://bit.ly/ACH26-PCW">our brief pre-registration interest form</a> by May 22. We will continue accepting pre-registration submissions through this form as long as space permits. Workshop organizers will contact you closer to the event with additional information about how to complete your registration process. We will maintain a wait list for each workshop.
 </div>
 
 <p>Completing the <a href="https://bit.ly/ACH26-PCW">pre-registration form</a> does not commit you to paying for a workshop. You must complete the full registration process (details forthcoming) to attend a workshop, at which time your participation is expected. Those who do not complete the full registration process by June 17 may lose their spot. Individuals on the waitlist will be permitted to register as space allows.</p>
