@@ -70,7 +70,7 @@ description: "Low-cost virtual pre-conference workshops for ACH 2026, June 22-23
 <div class="ws-steps">
   <div class="ws-step">
     <div class="ws-step-num">1</div>
-    <div class="ws-step-body">Complete <a href="https://bit.ly/ACH26-PCW">the pre-registration form</a> by <strong>May 22</strong></div> for priority registration. <strong>We will continue accepting pre-registration submissions through this form as long as space permits.</strong></div>
+    <div class="ws-step-body">Complete <a href="https://bit.ly/ACH26-PCW">the pre-registration form</a> by <strong>May 22</strong> for priority registration. <strong>We will continue accepting pre-registration submissions through this form as long as space permits.</strong></div>
   </div>
   <div class="ws-step">
     <div class="ws-step-num">2</div>
