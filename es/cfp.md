@@ -144,7 +144,7 @@ Las propuestas exitosas serán revisadas por los autores y publicadas en el prog
 
 ### Uso de IA en propuestas y revisiones
 
-ACH 2026 sigue el ejemplo del CFP  KeystoneDH 2024 y estamos abiertos al uso responsable de la IA generativa: “Dado que la IA generativa es un área de investigación importante y oportuna en las humanidades digitales, estamos interesados ​​en sus experimentos con ella, pero esperamos que en esta conferencia los participantes asuman la responsabilidad de la autoría de las propuestas y presentaciones. Solicitamos que los solicitantes y presentadores de la conferencia informen sobre su uso de herramientas de lenguaje generativo de IA, siguiendo la política de IA de arXiv”.
+ACH 2026 sigue el ejemplo del CFP KeystoneDH 2024 y estamos abiertos al uso responsable de la IA generativa: “Dado que la IA generativa es un área de investigación importante y oportuna en las humanidades digitales, estamos interesados en sus experimentos con ella, pero esperamos que en esta conferencia los participantes asuman la responsabilidad de la autoría de las propuestas y presentaciones. Solicitamos que los solicitantes y presentadores de la conferencia informen sobre su uso de herramientas de lenguaje generativo de IA, siguiendo la política de IA de arXiv”.
 
 El uso de IA generativa debe citarse de acuerdo con estándares profesionales, como las [pautas de la MLA para citar la IA generativa](https://style.mla.org/citing-generative-ai/).
 
