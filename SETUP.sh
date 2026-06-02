@@ -1,6 +1,7 @@
 #!/bin/bash
 # Quick Setup Guide for ConfTool Integration
 # Run this after cloning the repository
+# Usage: ./SETUP.sh
 
 echo "🚀 ACH 2026 Website - ConfTool Integration Setup"
 echo ""
