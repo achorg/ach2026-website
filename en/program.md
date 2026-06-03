@@ -135,7 +135,7 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
         </div>
 
         {% if session.sessionInfo %}
-        <div class="prog-session-info">{{ session.sessionInfo | safe }}</div>
+        <div class="prog-session-info">{{ session.sessionInfo }}</div>
         {% endif %}
 
         {% if session.papers and session.papers.length > 0 %}
@@ -146,6 +146,12 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
             <li class="prog-paper">
               <div class="prog-paper-title">{{ paper.title }}</div>
               {% if paper.authors %}<div class="prog-paper-authors">{{ paper.authors }}</div>{% endif %}
+              {% if paper.abstractPlain %}
+              <details class="prog-abstract-details">
+                <summary class="prog-abstract-toggle">Abstract</summary>
+                <div class="prog-abstract-body">{{ paper.abstractPlain | safe }}</div>
+              </details>
+              {% endif %}
               {% if paper.topicGroups and paper.topicGroups.length > 0 %}
               <div class="prog-paper-topics-grouped">
                 {% for grp in paper.topicGroups %}
@@ -374,6 +380,37 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
     font-size: 0.7rem; background: #ece8ff; color: #4C25E1; border-radius: 10px; line-height: 1.4;
   }
   .prog-noresults { padding: 1rem; text-align: center; color: #777; background: #f6f6f9; border-radius: 4px; }
+
+  .prog-abstract-details { margin-top: 0.3rem; }
+  .prog-abstract-toggle {
+    display: inline-block;
+    padding: 0.1rem 0.55rem;
+    font-size: 0.72rem;
+    font-weight: 500;
+    color: #4C25E1;
+    background: #f6f4ff;
+    border: 1px solid #cec8f5;
+    border-radius: 3px;
+    cursor: pointer;
+    line-height: 1.5;
+    list-style: none;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .prog-abstract-toggle::-webkit-details-marker { display: none; }
+  .prog-abstract-toggle::after { content: " ▾"; font-size: 0.65em; }
+  details[open] > .prog-abstract-toggle::after { content: " ▴"; }
+  .prog-abstract-toggle:hover { background: #ece8ff; border-color: #4C25E1; }
+
+  .prog-abstract-body {
+    margin-top: 0.15rem;
+    padding: 0.5rem 0.7rem;
+    font-size: 0.82rem;
+    line-height: 1.55;
+    color: #333;
+    background: #fafafa;
+    border-left: 3px solid #cec8f5;
+    border-radius: 0 3px 3px 0;
+  }
 </style>
 
 <script>

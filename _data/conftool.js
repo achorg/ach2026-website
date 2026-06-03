@@ -52,6 +52,37 @@ function splitPeople(value) {
     .filter(Boolean);
 }
 
+/**
+ * Strip HTML tags from a string, leaving plain text.
+ * Also unescapes common HTML entities first.
+ */
+function stripHtml(value) {
+  if (!value) return '';
+  return String(value)
+    .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&')
+    .replace(/&quot;/g, '"').replace(/&#39;/g, "'")
+    .replace(/<[^>]+>/g, '')
+    .trim();
+}
+
+/**
+ * Reformat a ConfTool authors string from "Last, First; Last2, First2"
+ * to "First Last, First2 Last2".
+ */
+function formatAuthors(value) {
+  if (!value) return '';
+  return String(value)
+    .split(/\s*;\s*/)
+    .map(name => {
+      const parts = name.split(/\s*,\s*/);
+      if (parts.length >= 2) {
+        return `${parts[1].trim()} ${parts[0].trim()}`;
+      }
+      return name.trim();
+    })
+    .join(', ');
+}
+
 function collectMatchingValues(record, pattern) {
   return Object.keys(record)
     .filter((key) => pattern.test(key))
@@ -318,14 +349,17 @@ function normalizePapers(record, paperById = {}) {
         const title = record[titleKey];
         if (!title) return null;
         const id = String(record[`p${n}_paperID`] || '');
-        const authors = String(record[`p${n}_authors`] || '');
+        const authors = formatAuthors(record[`p${n}_authors`] || '');
         const paper = paperById[id] || {};
         const keywords = paper.keywords ? splitPeople(paper.keywords) : [];
         const topics = normalizeTopics(paper);
         const grouped = groupPaperTopics(topics);
+        const abstractPlain = stripHtml(paper.abstract_plain || '');
+        const abstract = paper.abstract ? String(paper.abstract) : '';
         return {
           title: String(title), authors, id, keywords, topics,
-          topicGroups: grouped.groups, topicCount: grouped.count
+          topicGroups: grouped.groups, topicCount: grouped.count,
+          abstract, abstractPlain
         };
       })
       .filter(Boolean);
@@ -352,15 +386,19 @@ function normalizePapers(record, paperById = {}) {
     const keywords = paper.keywords ? splitPeople(paper.keywords) : [];
     const topics = normalizeTopics(paper);
     const grouped = groupPaperTopics(topics);
+    const abstractPlain = stripHtml(paper.abstract_plain || '');
+    const abstract = paper.abstract ? String(paper.abstract) : '';
     if (paperTitle) {
       papers.push({
         title: String(paperTitle),
-        authors: String(paperAuthors || ''),
+        authors: formatAuthors(paperAuthors || ''),
         id: String(paperId || ''),
         keywords,
         topics,
         topicGroups: grouped.groups,
-        topicCount: grouped.count
+        topicCount: grouped.count,
+        abstract,
+        abstractPlain
       });
     }
   }
@@ -441,7 +479,7 @@ function normalizeSession(record, paperById = {}, locale = 'en-US') {
   const subtitle = firstValue(record, ['subtitle', 'sub_title']);
   const location = firstValue(record, ['virtual_location', 'location', 'room', 'session_room']);
   const locationUrl = firstValue(record, ['virtual_location_url', 'location_url', 'zoom_link', 'zoom_url', 'join_url']);
-  const sessionInfo = firstValue(record, ['session_info', 'description', 'abstract', 'notes']);
+  const sessionInfo = stripHtml(firstValue(record, ['session_info', 'description', 'abstract', 'notes']) || '');
   const sessionUrl = firstValue(record, ['session_url', 'url', 'details_url']);
 
   const chairFields = collectMatchingValues(record, /chair|moderator/i);
@@ -507,7 +545,10 @@ module.exports = async function() {
       {
         key: 'papersExport',
         exportSelect: 'papers',
-        extraParams: {}
+        extraParams: {
+          'form_export_papers_options[]': ['abstracts', 'session'],
+          'form_status': 'p'
+        }
       }
     ]);
     const papersArr = Array.isArray(data.papersExport?.records) ? data.papersExport.records : [];
