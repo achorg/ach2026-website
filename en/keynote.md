@@ -9,7 +9,7 @@ We are proud to announce that our keynote speakers for ACH 2026 are Drs. Laura G
 
 ![Laura Gonzales](/assets/img/laura-gonzales.jpeg)  
 
-## Keynote Presentation on June 24, 1pm ET
+## [Keynote Presentation](https://www.conftool.pro/ach2026/index.php?page=browseSessions&form_date=all&form_session=60&presentations=show)
 ##### Speaker Bio
 **Dr. Laura Gonzales** (she/ella) is a researcher, translator, educator, and community engaged practitioner. She is the author of *Sites of Translation: What Multilinguals Can Teach Us About Digital Writing and Rhetoric* (University of Michigan Press, 2018) and *Designing Multilingual Experiences in Technical Communication* (Utah State University Press, 2022). Dr. Gonzales is the recipient of the 2023 Best Book Award by the Conference on Community Writing, the 2020 CCC Advancement of Knowledge Award, and the 2020 Technology Innovator Award. She is the editor-in-chief of *Reflections: A Journal of Community Engaged Writing and Rhetoric* and the President of the Association of Teachers of Technical Writing. 
 
@@ -21,7 +21,7 @@ In the age of growing technological surveillance and extraction, what are commun
 
 ![Maria José Afanador-Llach](/assets/img/Maria_Jose_Afanador_Octubre_JudyPulido2.jpg)
 
-## Keynote Presentation on June 25, 1pm ET
+## [Keynote Presentation](https://www.conftool.pro/ach2026/index.php?page=browseSessions&form_date=all&form_session=76&presentations=show) 
 ##### Speaker Bio
 **Dr. Maria José Afanador-Llach** (she/her) is an Associate Professor of Digital Humanities at Universidad de los Andes (Colombia). Since October 2025, she has served as Director of the Department of Digital Narratives in the School of Arts and Humanities. She is a historian whose work focuses on the transition from colony to republic in northern South America during the eighteenth and early nineteenth centuries, examined through the lenses of spatial practices, geographical imagination, and political economy.  
 

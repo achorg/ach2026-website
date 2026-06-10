@@ -8,7 +8,7 @@ Nos complace anunciar que las doctoras Laura Gonzales (she/ella) y Maria José A
 
 ![Laura Gonzales](/assets/img/laura-gonzales.jpeg)  
 
-## Charla magistral junio 24, 1pm ET
+## [Charla magistral](https://www.conftool.pro/ach2026/index.php?page=browseSessions&form_date=all&form_session=60&presentations=show)
 ##### Biografía
 La **Dra. Laura Gonzales** (she/ella) es una investigadora, traductora y educadora comprometida con el quehacer comunitario. Es autora de Sites of *Translation: What Multilinguals Can Teach Us About Digital Writing and Rhetoric* (University of Michigan Press, 2018) y *Designing Multilingual Experiences in Technical Communication* (Utah State University Press, 2022). La Dra. Gonzales recibió el Premio al Mejor Libro 2023 de la Conferencia sobre Escritura Comunitaria (Conference on Community Writing), el premio CCCC Advancement of Knowledge Award (Avance del Conocimiento) y el premio Technology Innovator (Innovador Tecnológico), ambos en 2020. Es editora en jefe de *Reflections: A Journal of Community Engaged Writing and Rhetoric* (Reflexiones: Una Revista de Escritura y Retórica Comprometida con la Comunidad) y presidente de la Asociación de Profesores de Redacción Técnica (Association of Teachers for Technical Writing).
  
@@ -20,7 +20,7 @@ En la era de creciente vigilancia y extracción tecnológica, ¿qué están haci
 
 ![Maria José Afanador-Llach](/assets/img/Maria_Jose_Afanador_Octubre_JudyPulido2.jpg)
 
-## Charla magistral junio 25, 1pm ET
+## [Charla magistral](https://www.conftool.pro/ach2026/index.php?page=browseSessions&form_date=all&form_session=76&presentations=show)
 ##### Biografía
 La **Dra. Maria José Afanador-Llach** (ella) es Profesora Asociada de Humanidades Digitales en la Universidad de los Andes (Colombia). Desde octubre de 2025, se desempeña como Directora del Departamento de Narrativas Digitales en la Facultad de Artes y Humanidades. Su trabajo como historiadora se enfoca en la transición de colonia a república del norte de Suramérica durante el siglo XVIII y principios del XIX examinada a través de prácticas espaciales, imaginación geográfica y economía política. Esta investigación también aborda archivos digitales y la integración de historia digital en el currículo de estudio de la educación universitaria en América Latina. Entre 2016 y 2025, se desempeñó como editora de *Programming Historian en español* y, actualmente, es miembro de la Red Colombiana de Humanidades Digitales.
 
