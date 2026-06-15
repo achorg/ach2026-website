@@ -20,6 +20,8 @@ items:
       url: '/en/hubs'
     - text: CFP
       url: '/en/cfp'
+    - text: Presenter Guide
+      url: '/en/presenter-guide'
   - text: People
     url: '/en/people'
   - text: Policies

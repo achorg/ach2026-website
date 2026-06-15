@@ -29,8 +29,8 @@ description: "Programa completo y cronológico de ACH 2026 — sesiones, ponenci
 {% if conftool.allTopics and conftool.allTopics.length > 0 %}
 
 <section class="topics-section">
-  <h2>Topics</h2>
-  <p class="text-muted">{{ conftool.totalTopics }} topics chosen by authors across {{ conftool.totalPapers }} papers, sized by how many papers chose each. Color indicates category (language, geography, temporal period, topical area, methods, disciplines &amp; fields). <strong>Click any topic to filter the program below.</strong></p>
+  <h2>Temas</h2>
+  <p class="text-muted">{{ conftool.totalTopics }} temas elegidos por los autores en {{ conftool.totalPapers }} ponencias, con un tamaño según cuántas ponencias eligieron cada uno. El color indica la categoría (idioma, geografía, periodo temporal, área temática, métodos, disciplinas y campos). <strong>Haz clic en cualquier tema para filtrar el programa a continuación.</strong></p>
 
   <div class="topic-cloud topic-cloud--flat">
     {% for item in conftool.allTopics %}
@@ -38,15 +38,15 @@ description: "Programa completo y cronológico de ACH 2026 — sesiones, ponenci
     {% endfor %}
     {% if conftool.allTopics.length > 30 %}
     <button type="button" class="topic-show-more"
-            data-less-label="Show fewer"
-            data-more-label="Show {{ conftool.allTopics.length - 30 }} more">Show {{ conftool.allTopics.length - 30 }} more</button>
+            data-less-label="Mostrar menos"
+            data-more-label="Mostrar {{ conftool.allTopics.length - 30 }} más">Mostrar {{ conftool.allTopics.length - 30 }} más</button>
     {% endif %}
   </div>
 </section>
 
 <div class="topic-filter-status" id="topicFilterBar" data-empty="1">
   <span id="topicFilterStatus" class="text-muted small"></span>
-  <button type="button" id="topicFilterClear" class="prog-reset" hidden>Clear topic filters</button>
+  <button type="button" id="topicFilterClear" class="prog-reset" hidden>Borrar filtros de temas</button>
 </div>
 
 {% endif %}
@@ -161,8 +161,8 @@ description: "Programa completo y cronológico de ACH 2026 — sesiones, ponenci
                 {% endfor %}
                 {% if paper.topicCount > 5 %}
                 <button type="button" class="topic-show-more paper-show-more"
-                        data-less-label="Show fewer"
-                        data-more-label="+ {{ paper.topicCount - 5 }} more">+ {{ paper.topicCount - 5 }} more</button>
+                        data-less-label="Mostrar menos"
+                        data-more-label="+ {{ paper.topicCount - 5 }} más">+ {{ paper.topicCount - 5 }} más</button>
                 {% endif %}
               </div>
               {% endif %}
@@ -192,7 +192,7 @@ description: "Programa completo y cronológico de ACH 2026 — sesiones, ponenci
   [data-cat="geo"]     .topic-tag, [data-cat="geo"]     .prog-kw,
   .topic-tag[data-cat="geo"]     { background:#e8f5e9; color:#2e7d32; }
   [data-cat="time"]    .topic-tag, [data-cat="time"]    .prog-kw,
-  .topic-tag[data-cat="time"]    { background:#fff3e0; color:#b35900; }
+  .topic-tag[data-cat="time"]    { background:#fff3e0; color:#a85300; }
   [data-cat="topical"] .topic-tag, [data-cat="topical"] .prog-kw,
   .topic-tag[data-cat="topical"] { background:#f3e5f5; color:#6a1b9a; }
   [data-cat="method"]  .topic-tag, [data-cat="method"]  .prog-kw,
@@ -353,6 +353,15 @@ description: "Programa completo y cronológico de ACH 2026 — sesiones, ponenci
   .prog-session.topic-filtered { display: none; }
   @media (max-width: 640px) {
     .prog-session { grid-template-columns: 1fr; gap: 0.3rem; padding: 0.6rem; }
+    /* keep the page from busting out of the viewport: the session select has a
+       ~985px intrinsic width from long option labels, and topic chips don't wrap */
+    .prog-filters select { max-width: 100%; }
+    .topic-tag--btn { white-space: normal; max-width: 100%; }
+    /* larger touch targets and a 16px search input (under 16px iOS zooms on focus) */
+    .prog-filters input[type="search"] { font-size: 1rem; }
+    .topic-show-more { padding: 0.35rem 0.8rem; font-size: 0.85rem; }
+    .paper-show-more { padding: 0.25rem 0.6rem; font-size: 0.78rem; }
+    .prog-papers summary { font-size: 0.9rem; padding: 0.3rem 0; }
   }
   .prog-session-time { font-variant-numeric: tabular-nums; line-height: 1.2; }
   .prog-session-time .session-time-primary {
@@ -508,7 +517,7 @@ description: "Programa completo y cronológico de ACH 2026 — sesiones, ponenci
     syncPillState();
     if (filterActive) {
       const labels = Array.from(active.values());
-      status.textContent = `Filtering by ${active.size} topic${active.size === 1 ? '' : 's'}: ${labels.join(', ')}`;
+      status.textContent = `Filtrando por ${active.size} tema${active.size === 1 ? '' : 's'}: ${labels.join(', ')}`;
       bar.dataset.empty = '0';
     } else {
       status.textContent = '';

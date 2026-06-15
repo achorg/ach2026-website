@@ -245,6 +245,27 @@ function parseTopicCategory(topic) {
   return { category: null, value: trimmed };
 }
 
+// ConfTool's REST export HTML-escapes field values ("Dance &amp; Theatre")
+// while the taxonomy above stores unescaped strings — decode before any
+// matching or the longest-match misses and the fallback splitter slices
+// "&amp;" at its semicolon, producing mangled and phantom topics.
+function decodeEntities(s) {
+  // Loop until stable: some values are double-encoded ("scene &amp;amp; object"),
+  // so a single pass leaves a residual "&amp;" that re-escapes in the HTML output.
+  let prev;
+  do {
+    prev = s;
+    s = s
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&quot;/g, '"')
+      .replace(/&#0?39;/g, "'")
+      .replace(/&apos;/g, "'")
+      .replace(/&amp;/g, '&');
+  } while (s !== prev);
+  return s;
+}
+
 // Topic-specific splitter. ConfTool's papers export joins each paper's topics
 // into one comma-separated string AND some topic values contain commas
 // internally (e.g., "Digital media, art, literature, history, music, film, and
@@ -255,9 +276,9 @@ function parseTopicCategory(topic) {
 function splitTopics(value) {
   if (!value) return [];
   if (Array.isArray(value)) {
-    return value.map((v) => String(v).trim()).filter(Boolean);
+    return value.map((v) => decodeEntities(String(v).trim())).filter(Boolean);
   }
-  let str = String(value).trim();
+  let str = decodeEntities(String(value).trim());
   const out = [];
   while (str.length > 0) {
     const lowerStr = str.toLowerCase();
@@ -303,7 +324,7 @@ function normalizeTopics(paper) {
     .sort((a, b) => parseInt(a.match(/\d+/)[0]) - parseInt(b.match(/\d+/)[0]))
     .map((k) => paper[k])
     .filter((v) => v !== undefined && v !== null && v !== '')
-    .map((v) => String(v).trim())
+    .map((v) => decodeEntities(String(v).trim()))
     .filter(Boolean);
 
   return numbered;
@@ -357,7 +378,7 @@ function normalizePapers(record, paperById = {}) {
         const abstractPlain = stripHtml(paper.abstract_plain || '');
         const abstract = paper.abstract ? String(paper.abstract) : '';
         return {
-          title: String(title), authors, id, keywords, topics,
+          title: decodeEntities(String(title)), authors, id, keywords, topics,
           topicGroups: grouped.groups, topicCount: grouped.count,
           abstract, abstractPlain
         };
@@ -390,7 +411,7 @@ function normalizePapers(record, paperById = {}) {
     const abstract = paper.abstract ? String(paper.abstract) : '';
     if (paperTitle) {
       papers.push({
-        title: String(paperTitle),
+        title: decodeEntities(String(paperTitle)),
         authors: formatAuthors(paperAuthors || ''),
         id: String(paperId || ''),
         keywords,
@@ -503,7 +524,7 @@ function normalizeSession(record, paperById = {}, locale = 'en-US') {
     sourceTZ: SOURCE_TZ,
     conferenceTZ: CONFERENCE_TZ,
     zoneTimes,
-    title: title || subtitle || 'Untitled session',
+    title: decodeEntities(title || subtitle || 'Untitled session'),
     subtitle,
     location,
     locationUrl,

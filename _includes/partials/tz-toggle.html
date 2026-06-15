@@ -1,11 +1,11 @@
-<div class="tz-toggle" aria-label="Choose displayed timezone">
-  <span class="tz-toggle-label">Show times in:</span>
-  <button type="button" class="tz-btn is-active" data-tz="conference">Conference time (CDT)</button>
+<div class="tz-toggle" aria-label="{% if page.lang == 'es' %}Elegir zona horaria{% else %}Choose displayed timezone{% endif %}">
+  <span class="tz-toggle-label">{% if page.lang == 'es' %}Mostrar horarios en:{% else %}Show times in:{% endif %}</span>
+  <button type="button" class="tz-btn is-active" data-tz="conference">{% if page.lang == 'es' %}Hora de la conferencia (CDT){% else %}Conference time (CDT){% endif %}</button>
   <button type="button" class="tz-btn" data-tz="ET">ET</button>
   <button type="button" class="tz-btn" data-tz="PT">PT</button>
   <button type="button" class="tz-btn" data-tz="BRT">BRT</button>
   <button type="button" class="tz-btn" data-tz="UTC">UTC</button>
-  <button type="button" class="tz-btn" data-tz="local">My timezone <span id="tz-local-name"></span></button>
+  <button type="button" class="tz-btn" data-tz="local">{% if page.lang == 'es' %}Mi zona horaria{% else %}My timezone{% endif %} <span id="tz-local-name"></span></button>
 </div>
 
 <style>

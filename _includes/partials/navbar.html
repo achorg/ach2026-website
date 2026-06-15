@@ -68,9 +68,17 @@
             {% endif %}
             
             <li>
+              {# switch to the equivalent page in the other language (see _data/lang_map.js); fall back to that language's home #}
+              {% if page.lang == 'es' %}
+                {% set switchEn = lang_map.es2en[page.url] or '/en/' %}
+                {% set switchEs = page.url %}
+              {% else %}
+                {% set switchEn = page.url %}
+                {% set switchEs = lang_map.en2es[page.url] or '/es/' %}
+              {% endif %}
               <div class="btn-group btn-group-sm" role="group" aria-label="...">
-                <button style="color:rgba(202, 206, 221, 0.8);" onclick="location.href='/en';" type="button" class="btn btn-outline-secondary">EN</button>
-                <button style="color:rgba(202, 206, 221, 0.8);" onclick="location.href='/es';" type="button" class="btn btn-outline-secondary">ES</button>
+                <button style="color:rgba(202, 206, 221, 0.8);" onclick="location.href='{{ switchEn }}';" type="button" class="btn btn-outline-secondary">EN</button>
+                <button style="color:rgba(202, 206, 221, 0.8);" onclick="location.href='{{ switchEs }}';" type="button" class="btn btn-outline-secondary">ES</button>
                 </div>
           </li>
         </ul>
