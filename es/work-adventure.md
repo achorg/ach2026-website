@@ -15,7 +15,7 @@ El enlace a nuestro mundo de Work Adventure se compartirá en la Agenda de la Co
 
 Acceso a Work Adventure
 
-Para acceder al espacio virtual, siga este [LINK](https://play.workadventu.re/@/association-for-computers-and-the-humanities-1747415862/ach2025/space-station-amongus)
+Para acceder al espacio virtual, utilice el enlace publicado en la Agenda de la Conferencia en ConfTool, disponible más cerca de la fecha de la conferencia.
 
 Para participar en el mundo virtual, solo necesita usar su navegador de internet; ¡no se requieren dependencias ni instalaciones adicionales! Work Adventure funciona en todos los navegadores, pero recomendamos Chrome. Si experimenta algún error, asegúrese de que su navegador esté actualizado. Le recomendamos cerrar las pestañas del navegador y los programas que no utilice en su computadora para mejorar la conectividad. Es posible que su navegador le solicite que active el video y el audio. Asegúrese de hacer clic en "Permitir" cuando se le solicite.
 

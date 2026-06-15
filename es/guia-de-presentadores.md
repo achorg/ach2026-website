@@ -4,6 +4,14 @@ layout: page
 description: "Qué esperar como presentador en ACH 2026 — formatos de sesión, duración y logística para Zoom y Work Adventure."
 ---
 
+<style>
+#main .col-lg-9 p { margin-bottom: 0.9rem; }
+#main .col-lg-9 ul { margin-top: 0.2rem; margin-bottom: 0.9rem; }
+#main .col-lg-9 li { margin-bottom: 0.3rem; line-height: 1.45; }
+#main .col-lg-9 h2 { margin-top: 1.7rem; margin-bottom: 0.5rem; }
+#main .col-lg-9 h3 { margin-top: 1.1rem; margin-bottom: 0.35rem; }
+</style>
+
 ACH 2026 se llevará a cabo en dos plataformas: **Zoom** y **Work Adventure**. Todas las presentaciones se realizarán en Zoom. En todas las sesiones de Zoom habrá un/a **responsable técnico/a** para ayudar (inicia el Zoom 15 minutos antes, admite a los asistentes, hace cumplir el [Código de Conducta](/es/politicas/codigo-de-conducta/) y cambia a un Zoom de respaldo en caso de interrupción).
 
 A continuación se explican los detalles de cada tipo de sesión:
