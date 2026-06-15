@@ -33,6 +33,18 @@
   status = 301
 
 [[redirects]]
+  from = "/en/map"
+  to = "/en/work-adventure/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/mapa"
+  to = "/es/work-adventure/"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/es/:splat"
   status = 302

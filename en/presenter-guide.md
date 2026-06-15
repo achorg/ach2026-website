@@ -1,76 +1,31 @@
 ---
 title: Presenter Guide
 layout: page
+description: "What to expect as an ACH 2026 presenter — session formats, timing, and Zoom and Work Adventure logistics."
 ---
 
-ACH 2026 will be held on two platforms: **Zoom** and [**Work Adventure**](https://workadventu.re/). Papers and Panels will take place in Zoom. Creative Sessions and Posters will be hosted in Work Adventure (see the details below). Session links & maps will be posted in the Conference Agenda in ConfTool prior to the start of the conference.
+ACH 2026 will be held on two platforms: **Zoom** and [**Work Adventure**](/en/work-adventure/). All presentations will be in Zoom. For all Zoom sessions, a **Tech chair** will be present to assist (starts Zoom 15 minutes early, admits attendees, enforces the [Code of Conduct](/en/policies/code-of-conduct/), and switches to a backup Zoom if disrupted).
 
-Presenters are encouraged to show up 15 minutes before their session start time to test screen and document sharing. Work Adventure presenters especially are encouraged to show up 30 minutes early to find their presentation space and test screen sharing capabilities. Work Adventure will be open/running throughout the entire conference, so you can pop in ahead of time to get a feel for the space and meet up with other conference attendees.
+The instructions below explain the specifics for each session type:
 
-Regardless of the medium, presenters are encouraged to be as inclusive as possible. Please review our [**accessibility guidelines**](/en/policies/accessibility/) when preparing your presentation. Whenever possible, enable captioning when sharing media in your presentation. Review our general [**conference accessibility guidelines**](/en/policies/accessibility/).
+### Panels
 
-### Papers (on Zoom)
+1 hour and 15 minutes per session. Session structure can be organized by the panelists and moderator.
 
-These sessions feature individual presentations and time for discussion at the end:
+### Papers
 
-Papers sessions feature 4 papers (10-12 minutes each)
+12–15 minutes per paper, 3–4 papers per session. A dedicated moderator will handle intros and Q&A.
 
-Presenters will be given screen sharing capabilities.
+### Creative Presentations
 
-Each session will have two volunteers on hand:
+5–6 minute Lightning Talks, with a dedicated moderator handling intros and Q&A. In addition, Creative Presenters are encouraged to provide a link to a digital poster that will be showcased in Work Adventure. For your poster, just provide a link to a public resource — a slidedeck, PDF, website, video, or any digital asset. This digital poster will be showcased in our Work Adventure environment, and attendees will have opportunities to visit and interact.
 
-* A **Moderator** will introduce speakers, keep time, and facilitate the Q\&A.  
-* A **Tech chair** will start the Zoom 15-minutes before the session begins (during the break), admit attendees from the waiting room, remove attendees who violate the Code of Conduct, and move the session to a backup Zoom (provided by us) in case of a disruption.
+## General Info for Presenters
 
-### Panels (on Zoom)
+Session links and maps will be posted in the ConfTool Conference Agenda before the conference.
 
-Panels will have their own dedicated Zoom space for their session. Presenters will be given screen sharing capabilities. 
+Presenters: show up 15 minutes early (Zoom) to test screen sharing.
 
-The panel organizer will serve as session moderator. 
+Be as inclusive as possible — review the [accessibility guidelines](/en/policies/accessibility/); enable captioning when sharing media.
 
-Each session will have a volunteer tech chair who will start the Zoom 15-minutes before the session begins (during the break), admit attendees from the waiting room, remove attendees who violate the Code of Conduct, and move the session to a backup Zoom (provided by us) in case of Zoombombing.
-
-### Creative and Poster Sessions (in Work Adventure)
-
-<img src="/assets/img/map.png" alt="Screenshot of Work Adventure showing a poster session with avatars and posters displayed on the walls" width="100%">
-
-Posters and creative sessions will be presented in Work Adventure via individual screen sharing (similar to Zoom functionality). Each poster and creative session will have a dedicated space for presenting. Multiple poster and creative sessions will be occurring simultaneously, and attendees may move from one room to another during any given session.
-
-As part of your presentation, you can share slides, a video, a static PDF, a url, or some other format that displays in the browser. There are no format requirements other than ensuring that your poster is accessible in the Google Chrome browser. If you would like to share a file to be placed at your presentation location in Work Adventure, **please upload your file through this [Google Form](https://docs.google.com/forms/d/15jIw-WSoOyccMYSBMDuyXe3wQqsYyreFTEbEYFKTBiw/preview).** 
-
-The virtual poster session will be interactive, similar to an in-person session. As people walk up to your dedicated space, they'll be able to talk to you with audio/video and use the chat feature. Your presentation slides or poster can be pre-loaded for passive display.
-
-Creative Sessions designate events featuring more than one presenter, and/or presentations framed as an interactive session, including potential media and discussion with the audience. Presenters are encouraged to think of creative, non-traditional ways of presenting and engaging with the audience.
-
-* If your creative session takes place in a Jitsi room, presentation videos/audio/slides will be shared via screen sharing in your designated room/stage. *In Jitsi, sound sharing will only be audible to people in your room.*  
-* If you do not upload or share your presentation with the conference committee in advance, it will need to be open in your active browser if you want to share it during your session  
-* You should pre-load your presentation (whatever media format) in another tab in the same browser window you’re using for Work Adventure.
-* If you're sharing a video, upload to a hosting site such as YouTube. Videos (if being utilized) should run no longer than 5-10 minutes, and there is no minimum length.   
-* If you're sharing audio, upload to a hosting site that is accessible in the browser, such as Soundcloud or Google Drive.    
-* Similarly, PDFs or other poster images will need to be online (e.g. in Google Drive, Box, Dropbox, OneDrive, etc.) so that they can be shared in the browser.  
-
-#### Navigating Work Adventure
-
-Our Work Adventure virtual world features dedicated spaces for formal presentations (stages for installations, rooms along the perimeter for each poster), as well as spots to gather with others, chat, or sit in silence.
-
-* Work Adventure will be open/available throughout the entire conference. You can pop in at any time to find your presentation room/stage and test everything. A volunteer guide may not be available when you join the space.  
-* We recommend that presenters enter the virtual world for setup and troubleshooting 30 minutes before your session begins:  
-* Volunteer Guides will be on hand to help with setup and audience participation. Guides will be hanging out in the center of the map where you will first spawn. Their avatar names will indicate that they are guides.
- 
-  * While Work Adventure will work in every browser, we recommend Chrome for all presenters as accessibility and screen sharing options are limited in other browsers. If you experience any bugs, ensure that your browser is up-to-date.  
-  * You may be prompted by your browser to turn “on” your video and audio. Be sure to click “Allow” when prompted.   
-  * Some Google Chrome users may have to disable the Evernote Web Clipper extension (Google Chrome \> Windows \> Extensions). Having this extension enabled may cause users to get stuck on the welcome screen, with the platform not responding to any actions (see [**Work Adventure troubleshooting**](https://workadventu.re/faq/troubleshooting))  
-  * Captions can be enabled in Chrome. For Chrome, go to Settings \> Accessibility, and then turn on “Live Caption.”   
-  * If there is a question from an attendee about captions, ensure they are using Chrome.
-
-The official ACH 2026 Work Adventure world will be available closer to the conference. Check the Conference Agenda in ConfTool for the link.
-
-For guidance on navigating to different sections of Work Adventure, see the following Key: 
-*Top Left Green Quadrant*: #4B Posters Session I
-*Bottom Left Yellow Quadrant*: #11B Posters Session II
-*Bottom Right Blue Quadrant*: Creative Submissions / Talks
-*Top Right Red Quadrant*: #18A & #19A ACH Care Fair
-
-*Jitsi Rooms for Sub group conversations*: In Space! (For example, DH in Libraries SIG is at the "There's Nothing More Ephemeral than a Website" print
-
-You can **[practice navigating a demo Work Adventure map](https://play.staging.workadventu.re/@/tcm/workadventure/wa-village)** before the conference to get familiar with the experience.
+Work Adventure will be open all conference — pop in anytime to socialize or look around. When you visit the virtual space, during breaks between sessions and at the Care Fair, volunteer guides will be present at the spawn point. We recommend you use Chrome.

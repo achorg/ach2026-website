@@ -23,112 +23,46 @@ aboutEvent: Una conferencia virtual que presenta el trabajo de miembros de la co
   <!-- ======= About Section ======= -->
   <section id="about">
     <div class="container" data-aos="fade-up">
+
       <div class="row">
         <div class="col-lg-6">
-          <h2>Sobre</h2>
-          <p>{{ aboutEvent }}</p>
+          <h3>Sobre ACH 2026</h3>
+          <p>ACH 2026 es la conferencia anual de la Association for Computers and the Humanities, que reúne a investigadores, profesionales y estudiantes que trabajan en la intersección de la tecnología y las humanidades. El tema de este año, <em>Emergence/ia</em>, invita a reflexionar sobre cómo la práctica de las humanidades digitales surge de momentos de crisis, creatividad y comunidad, y responde a ellos — incluido el compromiso de esta conferencia con la participación multilingüe e interregional.</p>
+          <p>La conferencia es totalmente virtual, con sesiones programadas para llegar a participantes en más de doce zonas horarias que abarcan las Américas, Europa, el Medio Oriente, el sur de Asia y el este de Asia.</p>
+          <a href="/es/programa" class="btn-about-program">Explora el programa &rarr;</a>
         </div>
         <div class="col-lg-3">
           <h3>Dónde</h3>
-          <p>Virtual</p>
+          <p><strong>Zoom</strong> y <strong>WorkAdventure</strong><br><span class="text-muted">Totalmente virtual</span></p>
+          <h3 class="mt-3">Cuándo</h3>
+          <p>Miércoles a viernes<br>24–26 de junio de 2026</p>
+          <p><small><a href="/es/talleres">Talleres pre-conferencia</a>: 22–23 de junio</small></p>
         </div>
         <div class="col-lg-3">
-          <h3>Cuando</h3>
-          <p>Miércoles a viernes<br>24 de junio - 26 de junio de 2026</p>
+          <h3>En cifras</h3>
+          {% if conftool.isConfigured %}
+          <ul class="about-stats-list">
+            <li><span class="about-stat-num">{{ conftool.totalPapers }}</span> presentaciones</li>
+            <li><span class="about-stat-num">{{ conftool.totalSessions }}</span> sesiones</li>
+            <li><span class="about-stat-num">{{ conftool.spanishCount }}</span> sesiones en español o bilingües</li>
+            <li><span class="about-stat-num">3</span> talleres pre-conferencia</li>
+            <li><span class="about-stat-num">5</span> grupos regionales</li>
+            <li><span class="about-stat-num">12+</span> zonas horarias</li>
+          </ul>
+          {% else %}
+          <ul class="about-stats-list">
+            <li><span class="about-stat-num">70+</span> presentaciones</li>
+            <li><span class="about-stat-num">22+</span> sesiones</li>
+            <li><span class="about-stat-num">3</span> talleres pre-conferencia</li>
+            <li><span class="about-stat-num">5</span> grupos regionales</li>
+            <li><span class="about-stat-num">12+</span> zonas horarias</li>
+          </ul>
+          {% endif %}
         </div>
       </div>
+
     </div>
   </section><!-- End About Section -->
-{% endif %}
-{% if settings.program %}
-  <!-- ======= Schedule Section ======= -->
-    <section id="schedule" class="section-with-bg">
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h2>Calendario</h2>
-          <p></p>
-        </div>
-
-        <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
-          <li class="nav-item">
-            <a class="nav-link active" href="#day-1" role="tab" data-bs-toggle="tab">29 de junio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#day-2" role="tab" data-bs-toggle="tab">30 de junio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#day-3" role="tab" data-bs-toggle="tab">1 de julio</a>
-          </li>
-        </ul>
-
-        <h3 class="sub-heading">Este es nuestro horario actual. Una vez finalizada la sesión, subiremos una grabación de cada sesión cuando sea posible.</h3>
-
-        <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
-          <!-- Schedule Day 1 -->
-          <!-- https://stackoverflow.com/questions/11770367/use-javascript-to-convert-a-date-string-with-timezone-to-a-date-object-in-local -->
-          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
-             {% set es_schedule = collections.sesiones %}
-            
-            {% for item in es_schedule|sort(attribute='data.time') %}
-              {% if item.data.day == 1 %}
-              <div class="row schedule-item">
-              <div class="col-md-2"><time>{{ item.data.time.toLocaleString('es', { dateStyle:'short', timeStyle: 'short', timeZone: 'America/New_York' }) }}</time></div>
-              <div class="col-md-10">
-                <h4>{{ item.data.title }}</h4>
-                <p>{{ item.data.description }}</p>
-                {% if item.data.recording %}
-                <a target="_blank" href="{{ item.data.recording }}">enlace</a>
-                {% endif %}
-              </div>
-            </div>
-              {% endif %}
-            {% endfor %}
-          </div>
-          <!-- End Schdule Day 1 -->
-
-          <!-- Schdule Day 2 -->
-          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
-            {% for item in es_schedule %}
-              {% if item.data.day == 2 %}
-              <div class="row schedule-item">
-              <div class="col-md-2"><time>{{ item.data.time }}</time></div>
-              <div class="col-md-10">
-                <h4>{{ item.data.title }}</h4>
-                <p>{{ item.data.description }}</p>
-                {% if item.data.url %}
-                <a href="{{ item.data.url }}">enlace</a>
-                {% endif %}
-              </div>
-            </div>
-              {% endif %}
-            {% endfor %}
-          </div>
-          <!-- End Schdule Day 2 -->
-
-          <!-- Schdule Day 3 -->
-          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3">
-            {% for item in es_schedule %}
-              {% if item.data.day == 3 %}
-              <div class="row schedule-item">
-              <div class="col-md-2"><time>{{ item.data.time }}</time></div>
-              <div class="col-md-10">
-                <h4>{{ item.data.title }}</h4>
-                <p>{{ item.data.description }}</p>
-                {% if item.data.recording %}
-                <a href="{{ item.data.url }}">enlace</a>
-                {% endif %}
-              </div>
-            </div>
-              {% endif %}
-            {% endfor %}
-          </div>
-          <!-- End Schdule Day 3 -->
-
-        </div>
-
-      </div>
-
-    </section><!-- End Schedule Section -->
 {% endif %}
 {% if settings.speakers %}
 <!-- ======= Speakers Section ======= -->

@@ -192,7 +192,7 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
   [data-cat="geo"]     .topic-tag, [data-cat="geo"]     .prog-kw,
   .topic-tag[data-cat="geo"]     { background:#e8f5e9; color:#2e7d32; }
   [data-cat="time"]    .topic-tag, [data-cat="time"]    .prog-kw,
-  .topic-tag[data-cat="time"]    { background:#fff3e0; color:#b35900; }
+  .topic-tag[data-cat="time"]    { background:#fff3e0; color:#a85300; }
   [data-cat="topical"] .topic-tag, [data-cat="topical"] .prog-kw,
   .topic-tag[data-cat="topical"] { background:#f3e5f5; color:#6a1b9a; }
   [data-cat="method"]  .topic-tag, [data-cat="method"]  .prog-kw,
@@ -353,6 +353,15 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
   .prog-session.topic-filtered { display: none; }
   @media (max-width: 640px) {
     .prog-session { grid-template-columns: 1fr; gap: 0.3rem; padding: 0.6rem; }
+    /* keep the page from busting out of the viewport: the session select has a
+       ~985px intrinsic width from long option labels, and topic chips don't wrap */
+    .prog-filters select { max-width: 100%; }
+    .topic-tag--btn { white-space: normal; max-width: 100%; }
+    /* larger touch targets and a 16px search input (under 16px iOS zooms on focus) */
+    .prog-filters input[type="search"] { font-size: 1rem; }
+    .topic-show-more { padding: 0.35rem 0.8rem; font-size: 0.85rem; }
+    .paper-show-more { padding: 0.25rem 0.6rem; font-size: 0.78rem; }
+    .prog-papers summary { font-size: 0.9rem; padding: 0.3rem 0; }
   }
   .prog-session-time { font-variant-numeric: tabular-nums; line-height: 1.2; }
   .prog-session-time .session-time-primary {
