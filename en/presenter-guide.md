@@ -4,7 +4,7 @@ layout: page
 description: "What to expect as an ACH 2026 presenter — session formats, timing, and Zoom and Work Adventure logistics."
 ---
 
-ACH 2026 will be held on two platforms: **Zoom** and [**Work Adventure**](/en/work-adventure/). All presentations will be in Zoom. For all Zoom sessions, a **Tech chair** will be present to assist (starts Zoom 15 minutes early, admits attendees, enforces the [Code of Conduct](/en/policies/code-of-conduct/), and switches to a backup Zoom if disrupted).
+ACH 2026 will be held on two platforms: **Zoom** and **Work Adventure**. All presentations will be in Zoom. For all Zoom sessions, a **Tech chair** will be present to assist (starts Zoom 15 minutes early, admits attendees, enforces the [Code of Conduct](/en/policies/code-of-conduct/), and switches to a backup Zoom if disrupted).
 
 The instructions below explain the specifics for each session type:
 
@@ -22,7 +22,7 @@ The instructions below explain the specifics for each session type:
 
 ## General Info for Presenters
 
-Session links and maps will be posted in the ConfTool Conference Agenda before the conference.
+Session links and location will be posted in the ConfTool Conference Agenda before the conference.
 
 Presenters: show up 15 minutes early (Zoom) to test screen sharing.
 

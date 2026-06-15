@@ -21,7 +21,7 @@ items:
       url: '/es/grupos'
     - text: CFP
       url: '/es/cfp'
-    - text: Guía de presentadores
+    - text: Guía para Presentadores
       url: '/es/guia-de-presentadores'
   - text: Gente
     url: '/es/gente'

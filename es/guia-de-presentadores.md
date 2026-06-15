@@ -1,10 +1,10 @@
 ---
 title: Guía para Presentadores
 layout: page
-description: "Qué esperar como presentador en ACH 2026 — formatos de sesión, duración y logística de Zoom y Work Adventure."
+description: "Qué esperar como presentador en ACH 2026 — formatos de sesión, duración y logística para Zoom y Work Adventure."
 ---
 
-ACH 2026 se llevará a cabo en dos plataformas: **Zoom** y [**Work Adventure**](/es/work-adventure/). Todas las presentaciones se realizarán en Zoom. En todas las sesiones de Zoom habrá un/a **responsable técnico/a** para ayudar (inicia el Zoom 15 minutos antes, admite a los asistentes, hace cumplir el [Código de Conducta](/es/politicas/codigo-de-conducta/) y cambia a un Zoom de respaldo en caso de interrupción).
+ACH 2026 se llevará a cabo en dos plataformas: **Zoom** y **Work Adventure**. Todas las presentaciones se realizarán en Zoom. En todas las sesiones de Zoom habrá un/a **responsable técnico/a** para ayudar (inicia el Zoom 15 minutos antes, admite a los asistentes, hace cumplir el [Código de Conducta](/es/politicas/codigo-de-conducta/) y cambia a un Zoom de respaldo en caso de interrupción).
 
 A continuación se explican los detalles de cada tipo de sesión:
 
@@ -14,18 +14,18 @@ A continuación se explican los detalles de cada tipo de sesión:
 
 ### Ponencias
 
-12–15 minutos por ponencia, 3–4 ponencias por sesión. Un/a moderador/a designado/a se encargará de las presentaciones y el turno de preguntas.
+12–15 minutos por ponencia, 3–4 ponencias por sesión. Un/a moderador/a designado/a se encargará de introducir a los presentadores y moderar el turno de preguntas.
 
 ### Presentaciones Creativas
 
-Charlas relámpago de 5–6 minutos, con un/a moderador/a designado/a a cargo de las presentaciones y el turno de preguntas. Además, se anima a los presentadores creativos a proporcionar un enlace a un póster digital que se exhibirá en Work Adventure. Para tu póster, basta con proporcionar un enlace a un recurso público: una presentación de diapositivas, un PDF, un sitio web, un video o cualquier recurso digital. Este póster digital se exhibirá en nuestro entorno de Work Adventure, y los asistentes tendrán la oportunidad de visitarlo e interactuar.
+El formato será tipo "charlas relámpago" de 5–6 minutos, con un/a moderador/a designado/a a cargo de las presentaciones y turno de preguntas. Para las Presentaciones Creativas, le sugerimos a los presentadores proveer un enlace al afiche que se mostrará en Work Adventure. Solo necesitamos un enlace directo a una versión pública del recurso—diapositivas, PDF, sitio web, video u otro recurso digital.Este afiche digital se exhibirá en nuestro espacio dentro de Work Adventure donde los participantes tendrán la oportunidad de visitar e interactuar con el mismo.
 
 ## Información General para Presentadores
 
-Los enlaces de las sesiones y los mapas se publicarán en la Agenda de la Conferencia en ConfTool antes de la conferencia.
+Los enlaces y localización para las sesiones se publicarán en el programa de la conferencia disponible a través de ConfTool antes del evento.
 
-Los presentadores deben conectarse 15 minutos antes (Zoom) para probar la pantalla compartida.
+Presentadores: deben conectarse (a Zoom) 15 minutos antes de su panel para probar la función de pantalla compartida.
 
-Sé lo más inclusivo posible: revisa las [pautas de accesibilidad](/es/politicas/accesibilidad/); activa los subtítulos al compartir contenido multimedia.
+Sea lo más inclusivo/a posible: revise las [pautas de accesibilidad](/es/politicas/accesibilidad/); activa los subtítulos al compartir contenido multimedia.
 
-Work Adventure estará abierto durante toda la conferencia: entra cuando quieras para socializar o explorar. Cuando visites el espacio virtual, durante los descansos entre sesiones y en la Feria del Cuidado (Care Fair), habrá guías voluntarios/as en el punto de aparición (spawn). Recomendamos usar Chrome.
+Work Adventure estará abierto durante toda la conferencia: entre cuando quiera socializar o explorar. Cuando visites, entre descansos y el "Care Fair", habrán guías disponibles en la entrada al espacio para orientarte. Recomendamos usar Chrome. 
