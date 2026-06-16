@@ -1,36 +1,85 @@
 ---
 title: Work Adventure
 layout: page
+description: "The ACH 2026 Work Adventure virtual world — Creative Presentation posters, the Care Fair, SIG meetings, and social spaces, plus how to access and navigate it."
 ---
 
-## Work Adventure
+<style>
+#main .col-lg-9 p { margin-bottom: 0.9rem; }
+#main .col-lg-9 ul { margin-top: 0.2rem; margin-bottom: 0.9rem; }
+#main .col-lg-9 li { margin-bottom: 0.3rem; line-height: 1.45; }
+#main .col-lg-9 h2 { margin-top: 1.7rem; margin-bottom: 0.5rem; }
+#main .col-lg-9 h3 { margin-top: 1.1rem; margin-bottom: 0.35rem; }
+#main .col-lg-9 figure { margin: 1.3rem 0; }
+#main .col-lg-9 figure img { width: 100%; max-width: 620px; height: auto; border-radius: 6px; display: block; margin: 0 auto; }
+#main .col-lg-9 figcaption { font-size: 0.85rem; color: #555; text-align: center; margin-top: 0.5rem; }
+</style>
 
-Our Work Adventure virtual world features dedicated spaces for formal presentations (stages for installations, rooms along the perimeter for each poster), as well as spots to gather with others, chat, or sit in silence together.
+Many of the ACH 2026 conference events take place in Work Adventure. Creative Presentation posters, the Care Fair, Special Interest Group meetings, and social events all happen in this virtual world.
 
-Work Adventure will be open throughout the entire conference. You can pop in at any time. We encourage you to explore the virtual world, make plans to meet up with other attendees for a virtual coffee or meal, and join us for our Work Adventure conference sessions.
+Work Adventure will be open throughout the entire conference. You can pop in at any time, even if a session (like the Care Fair or SIG meetings) isn't currently running. We encourage you to explore the virtual world, make plans to meet up with other attendees for a virtual coffee, meal, or game, and join us for our Work Adventure conference sessions.
 
-Volunteers will be available to guide attendees during sessions scheduled in Work Adventure.
+Volunteers will be available to guide attendees and answer questions — stop by the help icon when you spawn in Work Adventure!
 
 The link to our Work Adventure world will be shared in the Conference Agenda in ConfTool.
 
-Accessing Work Adventure
+<figure>
+  <img src="/assets/img/workadventure-map.webp" alt="Illustrated top-down map of the ACH 2026 Work Adventure world, with 'ACH 26' spelled out at the central city spawn point, surrounded by the Creative Presentation caravans, Solarpunk Arcade, Care Fair festival grounds, SIG urban farm, and a reflection beach.">
+  <figcaption>The ACH 2026 map. From top left to bottom right: Creative Presentation caravans and the Solarpunk Arcade; the City spawn point (with help desk) and the Care Fair; Reflection Beach and the SIG urban farm. Full descriptions below.</figcaption>
+</figure>
 
-To enter the virtual space, use the link posted in the Conference Agenda in ConfTool, available closer to the conference.
+## Accessing and Engaging in Work Adventure
 
-For participation in the virtual world, you only need to use your internet browser—no dependencies or additional installations needed! While Work Adventure will work in every browser, we strongly recommend Chrome. If you experience any bugs, ensure that your browser is up-to-date. We recommend you close unused browser tabs and programs running on your computer to boost your connectivity. You may be prompted by your browser to turn “on” your video and audio. Be sure to click “Allow” when prompted.
+### Accessing
 
-Each presentation and poster will be assigned a specific virtual “Jitsi room” to screen share presentations (video, audio, slides, etc.). Jitsi is an open source video conferencing software. Each room will be labeled with its assigned presentation.
+For participation in the virtual world, you only need your internet browser — no dependencies or additional installations needed. While Work Adventure works in every browser, **we strongly recommend Chrome.** If you experience any bugs, make sure your browser is up to date, and close unused browser tabs and programs to boost your connectivity.
 
-When you’re in proximity to a room, you’ll be prompted to hit the space bar. Doing so will allow you to enter the room and see the presentation being shared.
+You may be prompted by your browser to turn "on" your video and audio — be sure to click "Allow" when prompted.
 
-Captions can be enabled in Chrome. For Chrome, go to Settings > Accessibility, and then turn on “Live Caption.”
+Please note: loading Work Adventure the first time may take longer than expected. Give the site a minute or two; if it still fails to load, email us at [conference@ach.org](mailto:conference@ach.org) so we can help troubleshoot.
 
-You can talk to any other conference attendee just about anywhere in the virtual world. When 2+ attendees come into conversation range, a circle appears around them, thereby enabling video/audio conversation. Chat is also possible, both across the entire virtual space and in specific “jitsi” rooms.
+### Orientation
 
-If you don’t want to engage when someone approaches, you can opt to not enable camera and mic.
+When you log in, your avatar will appear at the **City spawn point**, in the center of the world in the section marked ACH26. Conference volunteers will be located at the help icon to help you navigate the map or answer questions.
 
-If you feel uncomfortable or experience anything harmful, you can block that person from communicating with you by clicking on their avatar (you can rescind the block at any time). If you experience a Code of Conduct violation, please let a Work Adventure volunteer guide know and email the conference committee (conference@ach.org) per the [ACH 2026 Code of Conduct](/en/policies/code-of-conduct/).
+From the spawn point, follow the walkways to other parts of the map:
+
+- **Creative Presentation posters** in the Caravan Camp
+- The **Care Fair** on the Festival Grounds
+- **Special Interest Groups** and other networking (outside of SIG meeting times) on the Urban Farm
+- **Quiet space** on the Beach
+- **Games** in the city's Solarpunk Arcade
+
+Follow the arrows to get where you want to go — each includes text to help with wayfinding.
+
+### Creative Presentation posters
+
+Creative Presentation posters are hosted along the top-left and center edge of the map, in the Caravan Camp. Each poster has its own wagon: walk up to one of the cart's sides to activate the digital presentation, which is accessible at a weblink. Each wagon is labeled with its assigned presentation.
+
+### The Care Fair
+
+The ACH 2026 **Care Fair** focuses on advocacy and care for each other in difficult times. We've created space in Work Adventure to come together in support of one another and our local communities through unconference-style, impromptu meetings.
+
+The Care Fair is on the Festival Grounds, marked by balloons and picnic tables on the right-middle side of the map. Each picnic table hosts a different discussion or activity, and impromptu activities are encouraged — op-ed writing workshops, advocacy or mentorship "matchmaking," strategizing resistance and supportive practices, or crash-course workshops on topics like cyber- or community-safety. A number of gathering spots are available for multiple groups; approach a table to hop in.
+
+### Special Interest Groups
+
+Special Interest Groups meet periodically throughout the conference on the **Urban Farm**, located beneath the Festival Grounds in the bottom-middle of the map. The Urban Farm also doubles as a networking and social space, with each farm plot serving as a separate spot for gathering and conversing. Gather your crew and cultivate your ideas!
+
+### The Beach
+
+If you need a moment of quiet, step onto **the Beach** in the lower-left corner of the map. Sit on one of the park benches for a short meditative or reflective break — using movement, meditation, poetry, or a nature sound mixer. Walk up to a bench to activate it; each bench has a unique exercise.
+
+### The Solarpunk Arcade
+
+Looking for casual social connections? Head to the **Solarpunk Arcade** in the top-right corner of the map. A variety of single- and multiplayer games can be accessed by approaching the arcade machines — multiplayer games along the top, single-player games on the side.
+
+## Social Interactions
+
+When you join Work Adventure, you may be prompted to turn "on" your video and audio — click "Allow" when prompted. If you don't want to engage when someone approaches, you can opt to leave your camera and mic off.
+
+If you feel uncomfortable or experience anything harmful, you can block that person from communicating with you by clicking on their avatar (you can rescind the block at any time). If you experience a [Code of Conduct](/en/policies/code-of-conduct/) violation, please let a Work Adventure volunteer know (at the help icon in the central spawn area) and email the conference committee at [conference@ach.org](mailto:conference@ach.org).
 
 Need additional help? Check out the [Work Adventure tutorial](https://play.staging.workadventu.re/@/tcm/workadventure/wa-village).
 
-If you’re presenting in Work Adventure, make sure to check out the [presenter guide](/en/presenter-guide/) for more details.
+Presenting in Work Adventure? See the [Presenter Guide](/en/presenter-guide/) for session formats, timing, and what to prepare.

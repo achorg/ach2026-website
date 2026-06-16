@@ -22,6 +22,8 @@ items:
       url: '/en/cfp'
     - text: Presenter Guide
       url: '/en/presenter-guide'
+    - text: Work Adventure
+      url: '/en/work-adventure'
   - text: People
     url: '/en/people'
   - text: Policies
