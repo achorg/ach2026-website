@@ -67,7 +67,7 @@ Sesiones interactivas que facilitan el diálogo entre 3-4 ponentes. Aceptamos pr
 
 ### Requisitos de las propuestas para la conferencia
 
-Las propuestas se enviarán mediante [ConfTool](https://www.conftool.pro/ach2024). Por favor, cree una nueva cuenta para enviar su propuesta.
+Las propuestas se enviarán mediante [ConfTool](https://www.conftool.pro/ach2026). Por favor, cree una nueva cuenta para enviar su propuesta.
 
 Las propuestas deben de ser entre 250-500 palabras. Los resúmenes deben abordar directamente los criterios de revisión: relevancia para el enfoque de la conferencia; compromiso con estudios relevantes; marco teórico y propósito; aplicabilidad, significado y valor; y organización y claridad.
 
