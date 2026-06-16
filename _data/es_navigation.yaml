@@ -23,6 +23,8 @@ items:
       url: '/es/cfp'
     - text: Guía para Presentadores
       url: '/es/guia-de-presentadores'
+    - text: Work Adventure
+      url: '/es/work-adventure'
   - text: Gente
     url: '/es/gente'
   - text: Políticas
