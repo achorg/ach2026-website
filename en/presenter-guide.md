@@ -30,7 +30,7 @@ The instructions below explain the specifics for each session type.
 
 5–6 minute Lightning Talks, with a dedicated moderator handling introductions and Q&A.
 
-In addition, Creative Presenters are encouraged to provide a link to a digital poster that will be showcased in Work Adventure. Provide a link to a public resource — a slidedeck, PDF, website, video, or any digital asset — and make sure the link is publicly accessible. This digital poster will be showcased in our Work Adventure environment, and attendees will be able to visit and interact with it throughout the conference. Submission details for your poster link will be shared with accepted presenters.
+In addition, Creative Presenters are encouraged to provide a link to a digital poster that will be showcased in Work Adventure. Provide a link to a public resource — a slidedeck, PDF, website, video, or any digital asset — and make sure the link is publicly accessible. This digital poster will be showcased in our Work Adventure environment, and attendees will be able to visit and interact with it throughout the conference. To include your poster, email your link to [conference@ach.org](mailto:conference@ach.org).
 
 ## General Info for Presenters
 

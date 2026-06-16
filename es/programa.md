@@ -120,6 +120,7 @@ description: "Programa completo y cronológico de ACH 2026 — sesiones, ponenci
           {% else %}
           {{ session.title }}
           {% endif %}
+          {% if session.isLightning %}<span class="prog-session-badge">Charlas relámpago</span>{% endif %}
         </h4>
 
         <div class="prog-session-meta">
@@ -375,6 +376,7 @@ description: "Programa completo y cronológico de ACH 2026 — sesiones, ponenci
   .prog-session-body > * + * { margin-top: 0.25rem; }
   .prog-session-title { margin: 0; font-size: 1rem; font-weight: 600; }
   .prog-session-title a { color: inherit; text-decoration: none; border-bottom: 1px dotted #4C25E1; }
+  .prog-session-badge { display: inline-block; margin-left: 0.5rem; padding: 0.08rem 0.45rem; font-size: 0.62rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: #fff; background: #4C25E1; border-radius: 3px; vertical-align: middle; white-space: nowrap; }
   .prog-session-meta { font-size: 0.82rem; color: #555; }
   .prog-meta-item { display: inline-block; margin-right: 0.8rem; }
   .prog-papers { margin-top: 0.25rem; }

@@ -503,6 +503,11 @@ function normalizeSession(record, paperById = {}, locale = 'en-US') {
   const sessionInfo = stripHtml(firstValue(record, ['session_info', 'description', 'abstract', 'notes']) || '');
   const sessionUrl = firstValue(record, ['session_url', 'url', 'details_url']);
 
+  // Creative Presentation sessions carry a "-CP" marker in their session code
+  // (e.g. "D1-S6-Z1-CP1") — these are the lightning-talk sessions.
+  const shortCode = firstValue(record, ['session_short', 'short', 'session_code']) || rawTitle || '';
+  const isLightning = /(?:^|[-_])CP\d*/i.test(shortCode);
+
   const chairFields = collectMatchingValues(record, /chair|moderator/i);
   const chairs = chairFields.flatMap(splitPeople);
 
@@ -532,6 +537,7 @@ function normalizeSession(record, paperById = {}, locale = 'en-US') {
     speakers,
     sessionInfo,
     sessionUrl,
+    isLightning,
     papers,
     raw: record
   };
