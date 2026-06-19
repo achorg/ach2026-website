@@ -184,7 +184,7 @@ Líderes principales de la conferencia: Alex Wermer-Colan (Temple University) y 
 
 Líderes del programa: Kate Ozment (Case Western Reserve University) y Jajwalya Karajgikar (University of Pennsylvania) 
 
-Líderes técnicos: Winnie Pérez Martínez (University of Virginia) and Andy Janco (Princeton University)
+Líderes técnicos: Andy Janco (Princeton University)
 
 Líder de voluntarios: Emily Esten (ORCID)
 

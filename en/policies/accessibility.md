@@ -2,9 +2,9 @@
 title: Accessibility
 layout: page
 ---
-The ACH 2026 planning committee ACH strives to ensure that the conference is accessible for all participants.
+The ACH 2026 planning committee strives to ensure that the conference is accessible for all participants.
 
-<!-- All synchronous sessions will make live transcription available to participants, and keynote sessions will include both sign language interpretation and live transcription. -->
+All sessions will have standard Zoom live captioning enabled. Both keynote sessions will feature American Sign Language (ASL) interpretation and live Spanish–English interpretation. Live Spanish–English interpretation will also be available for select sessions on the first two days of the conference (June 24–25).
 
 Virtual Presentation Accessibility Guidelines
 
