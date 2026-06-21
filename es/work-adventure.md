@@ -1,5 +1,5 @@
 ---
-title: Work Adventure
+title: Work Adventure 
 layout: page
 description: "El mundo virtual Work Adventure de ACH 2026 — pósteres de Presentaciones Creativas, la Feria del Cuidado, reuniones de GIE, y espacios sociales, además de cómo acceder y navegar en él."
 ---
@@ -14,6 +14,10 @@ description: "El mundo virtual Work Adventure de ACH 2026 — pósteres de Prese
 #main .col-lg-9 figure img { width: 100%; max-width: 620px; height: auto; border-radius: 6px; display: block; margin: 0 auto; }
 #main .col-lg-9 figcaption { font-size: 0.85rem; color: #555; text-align: center; margin-top: 0.5rem; }
 </style>
+
+<p class="text-center">
+  <a href="https://workadventure.ach.org" class="btn btn-outline-secondary" target="_blank" rel="noopener noreferrer">workadventure.ach.org</a>
+</p>
 
 Muchos de los eventos de la conferencia ACH 2026 tienen lugar en Work Adventure. Los pósteres de Presentaciones Creativas, la Feria del Cuidado, las reuniones de los Grupos de Interés Especial y los eventos sociales se celebran en este mundo virtual.
 

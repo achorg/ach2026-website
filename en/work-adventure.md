@@ -15,6 +15,10 @@ description: "The ACH 2026 Work Adventure virtual world — Creative Presentatio
 #main .col-lg-9 figcaption { font-size: 0.85rem; color: #555; text-align: center; margin-top: 0.5rem; }
 </style>
 
+<p class="text-center">
+  <a href="https://workadventure.ach.org" class="btn btn-outline-secondary" target="_blank" rel="noopener noreferrer">workadventure.ach.org</a>
+</p>
+
 Many of the ACH 2026 conference events take place in Work Adventure. Creative Presentation posters, the Care Fair, Special Interest Group meetings, and social events all happen in this virtual world.
 
 Work Adventure will be open throughout the entire conference. You can pop in at any time, even if a session (like the Care Fair or SIG meetings) isn't currently running. We encourage you to explore the virtual world, make plans to meet up with other attendees for a virtual coffee, meal, or game, and join us for our Work Adventure conference sessions.
@@ -32,11 +36,11 @@ The link to our Work Adventure world will be shared in the Conference Agenda in 
 
 ### Accessing
 
-For participation in the virtual world, you only need your internet browser — no dependencies or additional installations needed. While Work Adventure works in every browser, **we strongly recommend Chrome.** If you experience any bugs, make sure your browser is up to date, and close unused browser tabs and programs to boost your connectivity.
+For participation in the virtual world, you only need your internet browser — no dependencies or additional installations needed. 
 
 You may be prompted by your browser to turn "on" your video and audio — be sure to click "Allow" when prompted.
 
-Please note: loading Work Adventure the first time may take longer than expected. Give the site a minute or two; if it still fails to load, email us at [conference@ach.org](mailto:conference@ach.org) so we can help troubleshoot.
+Please note: Work Adventure takes longer to load the first time you join. Give the site a minute or two; if it still fails to load, email us at [conference@ach.org](mailto:conference@ach.org) so we can help troubleshoot.
 
 ### Orientation
 
@@ -51,6 +55,8 @@ From the spawn point, follow the walkways to other parts of the map:
 - **Games** in the city's Solarpunk Arcade
 
 Follow the arrows to get where you want to go — each includes text to help with wayfinding.
+
+To interact with others, simply walk near them. A bubble will appear connecting you. For group conversations, the bubble expands to include everyone in the area. Note that screen sharing is not available within bubbles. You can also [create a chat room for a specific meeting or session](https://docs.workadventu.re/user/chat/) to communicate with anyone in the virtual space. 
 
 ### Creative Presentation posters
 
