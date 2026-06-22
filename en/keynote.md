@@ -6,6 +6,8 @@ description: "ACH 2026 keynote speakers — Laura Gonzales (University of Florid
 
 We are proud to announce that our keynote speakers for ACH 2026 are Drs. Laura Gonzales (she/ella) and Maria José Afanador-Llach (she/her). 
 
+Both keynote sessions will feature American Sign Language (ASL) interpretation and live Spanish–English interpretation.
+
 
 ![Laura Gonzales](/assets/img/laura-gonzales.jpeg)  
 
