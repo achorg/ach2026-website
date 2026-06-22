@@ -1,13 +1,17 @@
----
+﻿---
 title: Programa
 layout: page
 templateEngineOverride: njk
 description: "Programa completo y cronológico de ACH 2026 — sesiones, ponencias, conferencias magistrales. Horarios mostrados en CDT con opción para ET, PT, BRT, UTC o su zona horaria local."
 ---
 
+<p class="text-center">
+  <a href="https://www.conftool.pro/ach2026/sessions.php" class="btn btn-outline-secondary" target="_blank" rel="noopener noreferrer">Programa con enlaces de Zoom</a>
+</p>
+
 <p class="prog-intro">ACH 2026 reúne presentaciones en múltiples sesiones, con participantes de zonas horarias que abarcan las Américas, Europa, el Medio Oriente, el sur y el este de Asia. Explora el programa cronológico completo a continuación — busca por título, autor o tema, o filtra por día, sesión o tema.</p>
 
-<p class="prog-intro">Los horarios se muestran en <strong>Hora Central (CDT)</strong> por defecto — la zona horaria principal de la conferencia. Usa el selector para cambiar a Hora del Este, Pacífico, Brasil, UTC o tu zona horaria local. El programa completo también está disponible en <a href="https://www.conftool.pro/ach2026/" target="_blank">ConfTool</a> (se requiere registro para acceder a los enlaces privados de sesiones).</p>
+<p class="prog-intro">Los horarios se muestran en <strong>Hora Central (CDT)</strong> por defecto — la zona horaria principal de la conferencia. Usa el selector para cambiar a Hora del Este, Pacífico, Brasil, UTC o tu zona horaria local. El programa completo también está disponible en <a href="https://www.conftool.pro/ach2026/sessions.php" target="_blank">ConfTool</a> (se requiere registro para acceder a los enlaces privados de sesiones).</p>
 
 {% if conftool.error %}
 <div class="alert alert-warning mt-3" role="alert">

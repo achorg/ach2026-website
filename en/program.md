@@ -1,13 +1,17 @@
----
+﻿---
 title: Program
 layout: page
 templateEngineOverride: njk
 description: "Full chronological program for ACH 2026 — sessions, papers, keynotes. Times shown in CDT with toggle for ET, PT, BRT, UTC, or your local timezone. Filter by topic, day, or session."
 ---
 
+<p class="text-center">
+  <a href="https://www.conftool.pro/ach2026/sessions.php" class="btn btn-outline-secondary" target="_blank" rel="noopener noreferrer">Program with Zoom links</a>
+</p>
+
 <p class="prog-intro">ACH 2026 brings together presentations across multiple sessions, with participants joining from timezones spanning the Americas, Europe, the Middle East, South Asia, and East Asia. Browse the full chronological program below — search by title, author, or topic, or filter by day, session, or topic.</p>
 
-<p class="prog-intro">Times are shown in <strong>Central Time (CDT)</strong> by default. Use the toggle below to switch zones. Full program is also available in <a href="https://www.conftool.pro/ach2026/" target="_blank">ConfTool</a>.</p>
+<p class="prog-intro">Times are shown in <strong>Central Time (CDT)</strong> by default. Use the toggle below to switch zones. Full program is also available in <a href="https://www.conftool.pro/ach2026/sessions.php" target="_blank">ConfTool</a>.</p>
 
 {% if conftool.error %}
 <div class="alert alert-warning mt-3" role="alert">
