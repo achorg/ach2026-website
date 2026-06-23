@@ -508,6 +508,11 @@ function normalizeSession(record, paperById = {}, locale = 'en-US') {
   const shortCode = firstValue(record, ['session_short', 'short', 'session_code']) || rawTitle || '';
   const isLightning = /(?:^|[-_])CP\d*/i.test(shortCode);
 
+  // Keynote sessions — flagged so the program can mark the accessibility services
+  // confirmed for them (ASL + live Spanish/English interpretation). Detected from
+  // the session title; if ConfTool labels keynotes differently, widen this test.
+  const isKeynote = /keynote|charla magistral|conferencia magistral|plenary/i.test(String(rawTitle || ''));
+
   const chairFields = collectMatchingValues(record, /chair|moderator/i);
   const chairs = chairFields.flatMap(splitPeople);
 
@@ -538,6 +543,7 @@ function normalizeSession(record, paperById = {}, locale = 'en-US') {
     sessionInfo,
     sessionUrl,
     isLightning,
+    isKeynote,
     papers,
     raw: record
   };

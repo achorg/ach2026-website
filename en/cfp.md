@@ -18,7 +18,7 @@ ACH fosters dialogue and solidarity on equity and justice across local, transbor
 
 ## Regional Hubs & Pre-Conference Workshops
 
-ACH 2026 will be a primarily virtual conference, but we will also be hosting “Regional Hubs” where organizations around the country can host in-person get-togethers to engage with the virtual conference. If you’re interested in hosting a Regional Hub, please email conference@ach .org for more information.
+ACH 2026 will be a primarily virtual conference, but we will also be hosting “Regional Hubs” where organizations around the country can host in-person get-togethers to engage with the virtual conference. If you’re interested in hosting a Regional Hub, please email conference@ach.org for more information.
 
 On the days preceding the ACH 2026 conference, on June 22nd and 23rd, low-cost, pre-conference virtual workshops by and for the ACH community will be held. Topics and instructors will be released soon. 
 

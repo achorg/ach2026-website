@@ -2,9 +2,9 @@
 title: Accesibilidad
 layout: page
 ---
-El comité organizador de ACH 2026 ACH se esfuerza por facilitar que la conferencia sea accesible para todos los participantes.
+El comité organizador de ACH 2026 se esfuerza por facilitar que la conferencia sea accesible para todos los participantes.
 
-<!-- TBD Todas las sesiones sincrónicas pondrán a disposición de los participantes la transcripción en vivo, y las sesiones principales incluirán interpretación en lenguaje de señas y transcripción en vivo. -->
+Todas las sesiones contarán con subtítulos automáticos de Zoom. Ambas conferencias magistrales contarán con interpretación en lengua de señas americana (ASL) e interpretación simultánea español–inglés. La interpretación simultánea español–inglés también estará disponible en sesiones seleccionadas durante los dos primeros días de la conferencia (24 y 25 de junio).
 
 # Guía de accesibilidad para presentaciones virtuales
 
@@ -23,7 +23,7 @@ El comité organizador de ACH 2026 ACH se esfuerza por facilitar que la conferen
 
 ## Para la presentación
 
-1. Practique su presentación para adquirir control sobre la duración y el ritmo. Hable más despacio lo que estima necesario. Asegúrese de que la presentación se ajuste a los límites establecidos de la conferencia (12-15 minutos para presentaciones tradicionales, 3-5 minutos para presentaciones creativas).
+1. Practique su presentación para adquirir control sobre la duración y el ritmo. Hable más despacio de lo que cree necesario. Asegúrese de que la presentación se ajuste a los límites establecidos de la conferencia (12-15 minutos para ponencias, 5-6 minutos para charlas relámpago).
 2. Hable claramente y minimice el ruido de fondo.
 3. Resuma el texto de sus diapositivas.
 4. Al compartir una imagen importante, como un cuadro o un gráfico, describa verbalmente la información importante que muestran las imágenes (p. ej., qué muestran los datos, títulos de los ejes).
@@ -32,7 +32,7 @@ El comité organizador de ACH 2026 ACH se esfuerza por facilitar que la conferen
 
 Adaptado de [“Mejores prácticas para la accesibilidad en eventos virtuales”](https://blog.syone.com/best-practices-for-accessibility-for-virtual-events) por Syone, y [“Virtual Presentation Accessibility Pautas.”](https://www.electroniclibrarian.org/virtual-presentation-accessibility-guidelines/) por Electronic Resources and Libraries.
 
-No dude en ponerse en contacto los organizadores de la conferencia usando conference \[at] ach \[dot] org concualquier pregunta o inquietud.
+No dude en ponerse en contacto con los organizadores de la conferencia escribiendo a conference \[at] ach \[dot] org con cualquier pregunta o inquietud.
 
 ## Licencia
 
