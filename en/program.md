@@ -125,7 +125,7 @@ description: "Full chronological program for ACH 2026 — sessions, papers, keyn
           {{ session.title }}
           {% endif %}
           {% if session.isLightning %}<span class="prog-session-badge">Lightning Talks</span>{% endif %}
-          {% if session.isKeynote %}<span class="prog-session-badge prog-session-badge--access" title="This keynote includes American Sign Language (ASL) interpretation and live Spanish–English interpretation">ASL &amp; ES/EN interpretation</span>{% endif %}
+          {% if session.isKeynote %}<span class="prog-session-badge prog-session-badge--access" title="This keynote includes American Sign Language (ASL) interpretation and live Spanish–English interpretation">ASL &amp; ES/EN interpretation</span>{% elif session.hasInterpretation %}<span class="prog-session-badge prog-session-badge--access" title="This session includes live Spanish–English interpretation">Live ES/EN interpretation</span>{% endif %}
         </h4>
 
         <div class="prog-session-meta">
