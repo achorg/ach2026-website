@@ -523,6 +523,14 @@ function normalizeSession(record, paperById = {}, locale = 'en-US') {
   const primary = zoneTimes['CT'] || { start: time, end: endTime, range: time };
   const displayTime = primary.range || (primary.start && primary.end ? `${primary.start}–${primary.end}` : primary.start || 'Time TBA');
 
+  // SECURITY: Zoom/meeting join links live in ConfTool behind login and must
+  // NEVER render on the PUBLIC program page. Strip any URL-shaped value no
+  // matter which ConfTool field carried it. Conservative match (only "://" or
+  // a leading "www.") so plain room labels like "Zoom Room A" survive intact.
+  // To re-enable public links later, revert location/locationUrl/sessionUrl below.
+  const looksLikeUrl = (v) => /:\/\/|(^|\s)www\./i.test(String(v || ''));
+  const safeLocation = looksLikeUrl(location) ? '' : location;
+
   return {
     dateDisplay: date || 'Date TBA',
     timeDisplay: displayTime,
@@ -536,12 +544,12 @@ function normalizeSession(record, paperById = {}, locale = 'en-US') {
     zoneTimes,
     title: decodeEntities(title || subtitle || 'Untitled session'),
     subtitle,
-    location,
-    locationUrl,
+    location: safeLocation,
+    locationUrl: '',
     chairs,
     speakers,
     sessionInfo,
-    sessionUrl,
+    sessionUrl: '',
     isLightning,
     isKeynote,
     papers,
