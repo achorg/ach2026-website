@@ -312,11 +312,20 @@ function splitTopics(value) {
 // Try the two field shapes ConfTool can use for topics on the papers export:
 // a single `topics` field with `;`-separated values, or numbered `topic_1`,
 // `topic_2`, ... keys.
+// "English" is the language-of-presentation default carried by ~99% of papers.
+// Rendering it on every paper is pure noise — it leads each tag list (Language is
+// the first category) and buries the handful of Spanish-language talks. Drop it
+// everywhere (per-paper chips, topic cloud, distinct-topic count, search/filter).
+// "Spanish" is kept so the bilingual content stays visible.
+function dropDefaultLanguage(topics) {
+  return topics.filter((t) => String(t).trim().toLowerCase() !== 'english');
+}
+
 function normalizeTopics(paper) {
   if (!paper || typeof paper !== 'object') return [];
 
   if (paper.topics) {
-    return splitTopics(paper.topics);
+    return dropDefaultLanguage(splitTopics(paper.topics));
   }
 
   const numbered = Object.keys(paper)
@@ -327,7 +336,7 @@ function normalizeTopics(paper) {
     .map((v) => decodeEntities(String(v).trim()))
     .filter(Boolean);
 
-  return numbered;
+  return dropDefaultLanguage(numbered);
 }
 
 // Group a paper's topics by their category. Returns category groups in admin
@@ -513,6 +522,13 @@ function normalizeSession(record, paperById = {}, locale = 'en-US') {
   // the session title; if ConfTool labels keynotes differently, widen this test.
   const isKeynote = /keynote|charla magistral|conferencia magistral|plenary/i.test(String(rawTitle || ''));
 
+  // Sessions with live Spanish–English interpretation self-identify with a
+  // "(Live Interpretation Provided)" marker in their ConfTool title. Keynotes get
+  // the fuller ASL + ES/EN badge (via isKeynote); other marked sessions get an
+  // ES/EN-only badge. Detecting the marker here lets the template badge all of
+  // them consistently with no hand-maintained session list.
+  const hasInterpretation = /interpretation provided/i.test(String(rawTitle || ''));
+
   const chairFields = collectMatchingValues(record, /chair|moderator/i);
   const chairs = chairFields.flatMap(splitPeople);
 
@@ -522,6 +538,14 @@ function normalizeSession(record, paperById = {}, locale = 'en-US') {
   // Primary display: conference timezone (CDT in June).
   const primary = zoneTimes['CT'] || { start: time, end: endTime, range: time };
   const displayTime = primary.range || (primary.start && primary.end ? `${primary.start}–${primary.end}` : primary.start || 'Time TBA');
+
+  // SECURITY: Zoom/meeting join links live in ConfTool behind login and must
+  // NEVER render on the PUBLIC program page. Strip any URL-shaped value no
+  // matter which ConfTool field carried it. Conservative match (only "://" or
+  // a leading "www.") so plain room labels like "Zoom Room A" survive intact.
+  // To re-enable public links later, revert location/locationUrl/sessionUrl below.
+  const looksLikeUrl = (v) => /:\/\/|(^|\s)www\./i.test(String(v || ''));
+  const safeLocation = looksLikeUrl(location) ? '' : location;
 
   return {
     dateDisplay: date || 'Date TBA',
@@ -536,14 +560,15 @@ function normalizeSession(record, paperById = {}, locale = 'en-US') {
     zoneTimes,
     title: decodeEntities(title || subtitle || 'Untitled session'),
     subtitle,
-    location,
-    locationUrl,
+    location: safeLocation,
+    locationUrl: '',
     chairs,
     speakers,
     sessionInfo,
-    sessionUrl,
+    sessionUrl: '',
     isLightning,
     isKeynote,
+    hasInterpretation,
     papers,
     raw: record
   };

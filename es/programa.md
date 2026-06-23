@@ -125,7 +125,7 @@ description: "Programa completo y cronológico de ACH 2026 — sesiones, ponenci
           {{ session.title }}
           {% endif %}
           {% if session.isLightning %}<span class="prog-session-badge">Charlas relámpago</span>{% endif %}
-          {% if session.isKeynote %}<span class="prog-session-badge prog-session-badge--access" title="Esta charla magistral incluye interpretación en lengua de señas americana (ASL) e interpretación simultánea español–inglés">Interpretación ASL y ES/EN</span>{% endif %}
+          {% if session.isKeynote %}<span class="prog-session-badge prog-session-badge--access" title="Esta charla magistral incluye interpretación en lengua de señas americana (ASL) e interpretación simultánea español–inglés">Interpretación ASL y ES/EN</span>{% elif session.hasInterpretation %}<span class="prog-session-badge prog-session-badge--access" title="Esta sesión incluye interpretación simultánea español–inglés">Interpretación ES/EN en vivo</span>{% endif %}
         </h4>
 
         <div class="prog-session-meta">
