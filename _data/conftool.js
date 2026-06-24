@@ -529,18 +529,18 @@ function normalizeSession(record, paperById = {}, locale = 'en-US') {
   // them consistently with no hand-maintained session list.
   const hasInterpretation = /interpretation provided/i.test(String(rawTitle || ''));
 
-  // PRIVACY: ConfTool's session export ships chair/moderator CONTACT columns
-  // (e.g. session_chair_email, moderator_organisation) that also match
-  // /chair|moderator/. Collect only NAME fields — never email/contact columns —
-  // and strip any email-shaped value as a backstop so addresses can't reach the
-  // PUBLIC program page.
+  // PRIVACY + CLEANLINESS: ConfTool's session export ships several columns per
+  // chair/moderator — combined "Last, First" (chairN), separate first/last name,
+  // person ID (chairN_ID), email(s), and organisation. Render ONLY the clean
+  // full-name column ("First Last", chairN_name) — never the ID, email(s),
+  // organisation, or name fragments. Email/number backstop in case the schema shifts.
   const looksLikeEmail = (v) => /\S+@\S+\.\S+/.test(String(v || ''));
   const chairFields = Object.keys(record)
-    .filter((k) => /chair|moderator/i.test(k) && !/mail|phone|contact|organi[sz]ation|affiliation|url|website/i.test(k))
+    .filter((k) => /(chair|moderator)\d*_name$/i.test(k) && !/(first|last|sur)name$/i.test(k))
     .sort()
     .map((k) => record[k])
     .filter((v) => v !== undefined && v !== null && v !== '');
-  const chairs = [...new Set(chairFields.flatMap(splitPeople).filter((c) => !looksLikeEmail(c)))];
+  const chairs = [...new Set(chairFields.flatMap(splitPeople).filter((c) => !looksLikeEmail(c) && !/^\d+$/.test(c)))];
 
   const speakers = splitPeople(firstValue(record, ['speakers', 'speaker', 'presenters', 'presenter']))
     .filter((s) => !looksLikeEmail(s));
