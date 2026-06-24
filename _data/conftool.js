@@ -74,12 +74,18 @@ function formatAuthors(value) {
   return String(value)
     .split(/\s*;\s*/)
     .map(name => {
-      const parts = name.split(/\s*,\s*/);
+      // ConfTool appends an affiliation index to each author (e.g. "Smith, Jane (1)"
+      // or "(1, 2)") keyed to a separate organisations list. Strip that marker before
+      // reformatting so it doesn't strand mid-name ("Jane (1) Smith"). Only
+      // digit-parentheticals are removed, so real names are untouched.
+      const clean = name.replace(/\s*\(\s*\d[\d,\s]*\)\s*/g, ' ').trim();
+      const parts = clean.split(/\s*,\s*/);
       if (parts.length >= 2) {
         return `${parts[1].trim()} ${parts[0].trim()}`;
       }
-      return name.trim();
+      return clean;
     })
+    .filter(Boolean)
     .join(', ');
 }
 
