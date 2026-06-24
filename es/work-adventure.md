@@ -1,7 +1,7 @@
 ---
 title: Work Adventure 
 layout: page
-description: "El mundo virtual Work Adventure de ACH 2026 — pósteres de Presentaciones Creativas, la Feria del Cuidado, reuniones de GIE, y espacios sociales, además de cómo acceder y navegar en él."
+description: "El mundo virtual Work Adventure de ACH 2026 — pósteres de Presentaciones Creativas y espacios sociales, además de cómo acceder y navegar en él."
 ---
 
 <style>
@@ -19,9 +19,13 @@ description: "El mundo virtual Work Adventure de ACH 2026 — pósteres de Prese
   <a href="https://workadventure.ach.org" class="btn btn-outline-secondary" target="_blank" rel="noopener noreferrer">workadventure.ach.org</a>
 </p>
 
-Muchos de los eventos de la conferencia ACH 2026 tienen lugar en Work Adventure. Los pósteres de Presentaciones Creativas, la Feria del Cuidado, las reuniones de los Grupos de Interés Especial y los eventos sociales se celebran en este mundo virtual.
+<div class="alert alert-warning" role="alert">
+Ten en cuenta que este año ACH está experimentando por primera vez con el autoalojamiento del entorno de Work Adventure; es posible que esto cause algunas dificultades técnicas imprevistas, como con las funciones de videochat. Aun así, puedes explorar el mundo virtual, ver los pósteres expuestos y acercarte a los puestos de información para obtener ayuda.
+</div>
 
-Work Adventure estará abierto durante toda la conferencia. Puedes entrar en cualquier momento, incluso si una sesión (como la Feria del Cuidado o las reuniones de GIE) no está en curso en ese momento. Te animamos a explorar el mundo virtual, planear encuentros con otras personas asistentes para un café, una comida o un juego virtual, y unirte a nuestras sesiones de la conferencia en Work Adventure.
+Work Adventure es nuestro mundo virtual para explorar los pósteres de Presentaciones Creativas y reunirse de manera informal con otras personas asistentes. Es un lugar para pasear, ver lo que está expuesto y tener conversaciones pequeñas y casuales — incluso en las áreas de la Feria del Cuidado y los Grupos de Interés Especial. (Nota: este año las sesiones en vivo de la Feria del Cuidado (viernes) y de los Grupos de Interés Especial (jueves) se realizan por Zoom — consulta el programa en ConfTool.)
+
+Work Adventure estará abierto durante toda la conferencia — entra cuando quieras. Te animamos a explorar el mundo virtual, ver los pósteres expuestos y planear encuentros con otras personas asistentes para un café, una comida, un juego o una conversación informal.
 
 Habrá voluntarios y voluntarias disponibles para orientar a los asistentes y responder preguntas — ¡acércate al ícono de ayuda cuando aparezcas en Work Adventure!
 
@@ -50,7 +54,7 @@ Desde el punto de aparición, sigue los caminos hacia otras partes del mapa:
 
 - **Pósteres de Presentaciones Creativas** en el Campamento de Caravanas
 - La **Feria del Cuidado** en los Terrenos del Festival
-- **Grupos de Interés Especial** y otras actividades de networking (fuera de los horarios de reuniones de GIE) en la Granja Urbana
+- **Grupos de Interés Especial** y espacio de networking en la Granja Urbana
 - **Espacio tranquilo** en la Playa
 - **Juegos** en el Arcade Solarpunk de la ciudad
 
@@ -64,13 +68,17 @@ Los pósteres de Presentaciones Creativas se encuentran a lo largo del borde sup
 
 ### La Feria del Cuidado
 
-La **Feria del Cuidado** de ACH 2026 se centra en la defensa de los derechos y el cuidado mutuo en tiempos difíciles. Hemos creado un espacio en Work Adventure para reunirnos en apoyo mutuo y el de nuestras comunidades locales, a través de encuentros improvisados al estilo de una no-conferencia.
+La **Feria del Cuidado** de ACH 2026 se centra en la defensa de los derechos y el cuidado mutuo en tiempos difíciles. Hemos creado un espacio en Work Adventure para reunirnos de manera informal en apoyo mutuo y el de nuestras comunidades locales.
 
-La Feria del Cuidado se encuentra en los Terrenos del Festival, marcados con globos y mesas de picnic en el lado central derecho del mapa. Cada mesa de picnic alberga una discusión o actividad diferente, y se animan las actividades improvisadas — talleres de escritura de artículos de opinión, "matchmaking" de defensa o mentoría, estrategias de resistencia y prácticas de apoyo, o talleres intensivos sobre temas como la seguridad cibernética o comunitaria. Hay varios espacios de reunión disponibles para múltiples grupos; acércate a una mesa para unirte.
+La Feria del Cuidado se encuentra en los Terrenos del Festival, marcados con globos y mesas de picnic en el lado central derecho del mapa. Las mesas de picnic son espacios abiertos para conversaciones pequeñas e informales — pásate para conectar con otras personas en torno a la defensa de derechos, el apoyo mutuo y el cuidado comunitario. Acércate a una mesa para unirte.
+
+Las sesiones en vivo de la Feria del Cuidado se realizan por Zoom el viernes — consulta el programa en ConfTool.
 
 ### Grupos de Interés Especial
 
-Los Grupos de Interés Especial se reúnen periódicamente durante la conferencia en la **Granja Urbana**, ubicada debajo de los Terrenos del Festival en la parte central inferior del mapa. La Granja Urbana también funciona como espacio de networking y socialización, con cada parcela sirviendo como un lugar distinto para reunirse y conversar. ¡Reúne a tu grupo y cultiva tus ideas!
+La **Granja Urbana**, ubicada debajo de los Terrenos del Festival en la parte central inferior del mapa, es un espacio de networking y socialización — cada parcela es un lugar distinto para reunirse y tener conversaciones pequeñas. ¡Reúne a tu grupo y cultiva tus ideas!
+
+Las sesiones en vivo de los Grupos de Interés Especial se realizan por Zoom el jueves — consulta el programa en ConfTool.
 
 ### La Playa
 
