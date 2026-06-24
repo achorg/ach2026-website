@@ -65,26 +65,7 @@ description: "Low-cost virtual pre-conference workshops for ACH 2026, June 22-23
 <section class="ws-section">
 <h2 class="ws-section-title">Registration Process</h2>
 
-<p>Registering for a workshop is a two-step process:</p>
-
-<div class="ws-steps">
-  <div class="ws-step">
-    <div class="ws-step-num">1</div>
-    <div class="ws-step-body">Complete <a href="https://bit.ly/ACH26-PCW">the pre-registration form</a> by <strong>May 22</strong> for priority registration. <strong>We will continue accepting pre-registration submissions through this form as long as space permits.</strong></div>
-  </div>
-  <div class="ws-step">
-    <div class="ws-step-num">2</div>
-    <div class="ws-step-body">Register and pay for the workshop via the conference registration website by <strong>June 21</strong></div>
-  </div>
-</div>
-
-<div class="ws-notice">
-  <strong>Space is limited!</strong> To reserve your seat, complete <a href="https://bit.ly/ACH26-PCW">our brief pre-registration interest form</a> by May 22. We will continue accepting pre-registration submissions through this form as long as space permits. Workshop organizers will contact you closer to the event with additional information about how to complete your registration process. We will maintain a wait list for each workshop.
-</div>
-
-<p>Completing the <a href="https://bit.ly/ACH26-PCW">pre-registration form</a> does not commit you to paying for a workshop. You must complete the full registration process (details forthcoming) to attend a workshop, at which time your participation is expected. Those who do not complete the full registration process by June 21 may lose their spot. Individuals on the waitlist will be permitted to register as space allows.</p>
-
-<p>You may register to attend a pre-conference workshop without registering for the full ACH2026 conference. If you plan to attend the full conference, you must <strong>also</strong> register for that separately.</p>
+<p>Pre-conference workshop registration has closed.</p>
 
 <p>Questions? Contact Pam Lach (plach AT sdsu DOT edu) and Brandon Walsh (bmw9t AT virginia DOT edu).</p>
 </section>
