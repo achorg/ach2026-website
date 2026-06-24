@@ -529,10 +529,21 @@ function normalizeSession(record, paperById = {}, locale = 'en-US') {
   // them consistently with no hand-maintained session list.
   const hasInterpretation = /interpretation provided/i.test(String(rawTitle || ''));
 
-  const chairFields = collectMatchingValues(record, /chair|moderator/i);
-  const chairs = chairFields.flatMap(splitPeople);
+  // PRIVACY: ConfTool's session export ships chair/moderator CONTACT columns
+  // (e.g. session_chair_email, moderator_organisation) that also match
+  // /chair|moderator/. Collect only NAME fields — never email/contact columns —
+  // and strip any email-shaped value as a backstop so addresses can't reach the
+  // PUBLIC program page.
+  const looksLikeEmail = (v) => /\S+@\S+\.\S+/.test(String(v || ''));
+  const chairFields = Object.keys(record)
+    .filter((k) => /chair|moderator/i.test(k) && !/mail|phone|contact|organi[sz]ation|affiliation|url|website/i.test(k))
+    .sort()
+    .map((k) => record[k])
+    .filter((v) => v !== undefined && v !== null && v !== '');
+  const chairs = [...new Set(chairFields.flatMap(splitPeople).filter((c) => !looksLikeEmail(c)))];
 
-  const speakers = splitPeople(firstValue(record, ['speakers', 'speaker', 'presenters', 'presenter']));
+  const speakers = splitPeople(firstValue(record, ['speakers', 'speaker', 'presenters', 'presenter']))
+    .filter((s) => !looksLikeEmail(s));
   const papers = normalizePapers(record, paperById);
 
   // Primary display: conference timezone (CDT in June).
