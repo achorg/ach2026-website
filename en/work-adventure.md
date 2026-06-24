@@ -1,7 +1,7 @@
 ---
 title: Work Adventure
 layout: page
-description: "The ACH 2026 Work Adventure virtual world — Creative Presentation posters, the Care Fair, SIG meetings, and social spaces, plus how to access and navigate it."
+description: "The ACH 2026 Work Adventure virtual world — Creative Presentation posters and social spaces, plus how to access and navigate it."
 ---
 
 <style>
@@ -19,9 +19,13 @@ description: "The ACH 2026 Work Adventure virtual world — Creative Presentatio
   <a href="https://workadventure.ach.org" class="btn btn-outline-secondary" target="_blank" rel="noopener noreferrer">workadventure.ach.org</a>
 </p>
 
-Many of the ACH 2026 conference events take place in Work Adventure. Creative Presentation posters, the Care Fair, Special Interest Group meetings, and social events all happen in this virtual world.
+<div class="alert alert-warning" role="alert">
+Please note that this year ACH is experimenting for the first time with self-hosting the Work Adventure environment; please be aware this may cause some unintended technical difficulties, such as with video chat features. You can still explore the virtual world, view the posters on display, and stop by the info booths for help.
+</div>
 
-Work Adventure will be open throughout the entire conference. You can pop in at any time, even if a session (like the Care Fair or SIG meetings) isn't currently running. We encourage you to explore the virtual world, make plans to meet up with other attendees for a virtual coffee, meal, or game, and join us for our Work Adventure conference sessions.
+Work Adventure is our virtual world for exploring Creative Presentation posters and gathering informally with other attendees. It's a place to wander, see what's on display, and have small, casual conversations — including in the Care Fair and Special Interest Group areas. (Note: live Care Fair (Friday) and Special Interest Group (Thursday) sessions are held over Zoom this year — see the program in ConfTool.)
+
+Work Adventure will be open throughout the entire conference — pop in any time. We encourage you to explore the virtual world, view the posters on display, and make plans to meet up with other attendees for a virtual coffee, meal, game, or casual conversation.
 
 Volunteers will be available to guide attendees and answer questions — stop by the help icon when you spawn in Work Adventure!
 
@@ -50,7 +54,7 @@ From the spawn point, follow the walkways to other parts of the map:
 
 - **Creative Presentation posters** in the Caravan Camp
 - The **Care Fair** on the Festival Grounds
-- **Special Interest Groups** and other networking (outside of SIG meeting times) on the Urban Farm
+- **Special Interest Group** and networking space on the Urban Farm
 - **Quiet space** on the Beach
 - **Games** in the city's Solarpunk Arcade
 
@@ -64,13 +68,17 @@ Creative Presentation posters are hosted along the top-left and center edge of t
 
 ### The Care Fair
 
-The ACH 2026 **Care Fair** focuses on advocacy and care for each other in difficult times. We've created space in Work Adventure to come together in support of one another and our local communities through unconference-style, impromptu meetings.
+The ACH 2026 **Care Fair** focuses on advocacy and care for each other in difficult times. We've created a space in Work Adventure to come together informally in support of one another and our local communities.
 
-The Care Fair is on the Festival Grounds, marked by balloons and picnic tables on the right-middle side of the map. Each picnic table hosts a different discussion or activity, and impromptu activities are encouraged — op-ed writing workshops, advocacy or mentorship "matchmaking," strategizing resistance and supportive practices, or crash-course workshops on topics like cyber- or community-safety. A number of gathering spots are available for multiple groups; approach a table to hop in.
+The Care Fair is on the Festival Grounds, marked by balloons and picnic tables on the right-middle side of the map. The picnic tables are open spots for small, informal conversations — drop by to connect with others around advocacy, mutual support, and community care. Approach a table to join in.
+
+Live Care Fair sessions take place over Zoom on Friday — see the program in ConfTool.
 
 ### Special Interest Groups
 
-Special Interest Groups meet periodically throughout the conference on the **Urban Farm**, located beneath the Festival Grounds in the bottom-middle of the map. The Urban Farm also doubles as a networking and social space, with each farm plot serving as a separate spot for gathering and conversing. Gather your crew and cultivate your ideas!
+The **Urban Farm**, located beneath the Festival Grounds in the bottom-middle of the map, is a networking and social space — each farm plot is a separate spot for gathering and small conversations. Gather your crew and cultivate your ideas!
+
+Live Special Interest Group sessions take place over Zoom on Thursday — see the program in ConfTool.
 
 ### The Beach
 
